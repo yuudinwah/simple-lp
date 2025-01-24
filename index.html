@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Anda - Portofolio</title>
+    <style rel="stylesheet" >
+        body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Pusatkan menu navigasi */
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px; /* Beri jarak antar item menu */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+#hero {
+    background-image: url("gambar_background.jpg"); /* Ganti dengan gambar background Anda */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Nama Anda</h1>
+            <h2>Profesi/Keahlian Anda</h2>
+            <p>Deskripsi singkat tentang diri Anda dan keahlian Anda.</p>
+            <a href="#contact" class="btn">Hubungi Saya</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Ceritakan lebih detail tentang diri Anda, latar belakang, pengalaman, dan minat Anda.  Anda juga bisa menambahkan foto profil di sini.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Proyek</h2>
+            <div class="project-grid">
+                <!-- Contoh Proyek -->
+                <div class="project">
+                    <h3>Nama Proyek 1</h3>
+                    <p>Deskripsi singkat proyek 1.</p>
+                    <a href="#" class="btn">Lihat Detail</a>
+                </div>
+                <div class="project">
+                    <h3>Nama Proyek 2</h3>
+                    <p>Deskripsi singkat proyek 2.</p>
+                    <a href="#" class="btn">Lihat Detail</a>
+                </div>
+                <!-- Tambahkan proyek lainnya di sini -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Kontak</h2>
+            <p>Email: emailanda@example.com</p>
+            <p>Telepon: nomor telepon Anda</p>
+            <p>LinkedIn: <a href="link_linkedin_anda">Profil LinkedIn Anda</a></p>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2023 Nama Anda</p>
+    </footer>
+
+
+
+</body>
+</html>
